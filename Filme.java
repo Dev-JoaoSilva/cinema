@@ -1,10 +1,18 @@
-public class Filme{
+public class Filme {
     private int codigo;
     private String nome;
     private double valor;
     private boolean disponivel;
 
-    //faça os geots e os sets
+    // faça os geots e os sets
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public int getCodigo() {
+        return this.codigo;
+    }
 
     public void setNumero(int numero) {
         this.codigo = numero;
